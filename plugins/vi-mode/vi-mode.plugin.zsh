@@ -19,6 +19,10 @@ zle -N zle-line-finish
 zle -N zle-keymap-select
 
 bindkey -v
+bindkey '^?' backward-delete-char
+bindkey '^R' history-incremental-search-backward
+bindkey -M viins "\e." insert-last-word
+bindkey -M vicmd "\e." insert-last-word
 
 # if mode indicator wasn't setup by theme, define default
 if [[ "$MODE_INDICATOR" == "" ]]; then
