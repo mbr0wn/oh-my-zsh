@@ -10,8 +10,8 @@ alias md=mkdir
 alias rd=rmdir
 alias c=cd
 
-alias ls="ls --color=always -FG"
-alias ll="ls --color=always -lhF"
+alias ls="ls --color=auto -FG"
+alias ll="ls --color=auto -lhF"
 alias l=ls
 
 alias review-uhddev="post-review --repository-url=git@github.com:EttusResearch/uhddev.git" 

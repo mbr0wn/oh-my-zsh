@@ -20,6 +20,9 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$UHDPREFIX/lib
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:$UHDPREFIX/lib/pkgconfig
 export CPATH=~/.usrlocal-uhd/include
 
+export UHD_LOG_LEVEL=regularly
+export UHD_TEMP_PATH=/home/mbr0wn/tmp
+
 # GNU Radio
 GRPREFIX=~/.usrlocal-gnuradio
 export PATH=$PATH:$GRPREFIX/bin
