@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="mokietux"
+ZSH_THEME="powerlevel9k"
 
 # Set to this to use case-sensitive completion
 CASE_SENSITIVE="true"
@@ -21,7 +21,7 @@ COMPLETION_WAITING_DOTS="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(vi-mode zsh-syntax-highlighting git git-extras svn history history-substring-search command-not-found colored-man colorize copyfile copydir cp dircycle screen hugs)
+plugins=(vi-mode zsh-syntax-highlighting gitfast git-extras svn history history-substring-search command-not-found colored-man colorize copyfile copydir cp dircycle screen hugs)
 
 MODE_INDICATOR="-- NORMAL --"
 
@@ -31,6 +31,9 @@ source $ZSH/oh-my-zsh.sh
 ### PATHS ###################################################################
 # etc.
 source ~/.shenv
+
+export DEFAULT_USER=mbant
+export TERM=xterm-256color
 
 ### ALIASES #################################################################
 # Anything compatible to Bash
