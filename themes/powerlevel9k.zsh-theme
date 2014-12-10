@@ -153,7 +153,7 @@ prompt_hg() {
 
 # Dir: current working directory
 prompt_dir() {
-  left_prompt_segment blue black '%~'
+  left_prompt_segment "234" "149" '%~'
 }
 
 # Virtualenv: current working virtualenv
