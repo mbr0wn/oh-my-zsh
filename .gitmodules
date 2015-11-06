@@ -1,0 +1,4 @@
+[submodule "custom/themes/powerlevel9k"]
+	path = custom/themes/powerlevel9k
+	url = https://github.com/mbr0wn/powerlevel9k.git
+	branch = next
