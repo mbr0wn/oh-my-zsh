@@ -2,6 +2,11 @@
 ZSH=$HOME/.oh-my-zsh
 export TERM="xterm-256color"
 
+POWERLEVEL9K_DIR_BACKGROUND='234'
+POWERLEVEL9K_DIR_FOREGROUND='149'
+POWERLEVEL9K_STATUS_VERBOSE=false
+POWERLEVEL9K_STATUS_BACKGROUND='009'
+
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -12,7 +17,7 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 CASE_SENSITIVE="true"
 
 # Comment this out to disable weekly auto-update checks
- DISABLE_AUTO_UPDATE="true"
+DISABLE_AUTO_UPDATE="true"
 
 # Uncomment following line if you want to disable autosetting terminal title.
 #DISABLE_AUTO_TITLE="true"
